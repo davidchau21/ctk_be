@@ -17,7 +17,7 @@ pipeline {
         // REGISTRY           = "your-dockerhub-username"
 
         // Path to the backend subfolder inside the repo
-        BACKEND_DIR   = "backend"
+        BACKEND_DIR   = "."
 
         // Node version (must match Dockerfile)
         NODE_VERSION  = "20"
