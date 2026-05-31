@@ -35,11 +35,7 @@ pipeline {
         skipDefaultCheckout(false)
     }
 
-    // ── Triggers ──────────────────────────────────────────────────────────────
-    triggers {
-        // Poll SCM every 5 minutes (use webhook in production for real-time)
-        // pollSCM('H/5 * * * *')
-    }
+
 
     // ══════════════════════════════════════════════════════════════════════════
     // STAGES
